@@ -1,0 +1,173 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  }
+
+/* Header */
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 1200px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  font-weight: bold;
+  background-color: black;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 12px;
+}
+
+.logo span {
+  text-decoration: underline;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+div {
+  border: 1px solid white;
+}
+
+.flexcontainer {
+  padding-top: 69px;
+  width: 1200px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg")
+}
+
+.ourmission {
+  background-color: black;
+  width: 1200px;
+
+}
+
+/* Month Features */
+
+.month {
+  display: flex;
+  flex-direction: column;
+}
+
+.features {
+  height: 200px;
+  width: 300px;
+  padding: 15px;
+  padding-bottom: 10px;
+}
+
+
+.monthheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.monthfeatures {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.row h4 {
+  padding-top: 0;
+  margin-top: 10px;
+}
+
+/* Locations */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  margin-top: 40px;
+  background-image: url("../images/img-locations-background.jpg")
+}
+
+.locations_title {
+  display: flex;
+  justify-content: center;
+}
+
+.locations-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.downtown, .bayside, .oakdale {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+
+/* Footer */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 1000px;
+  padding-left: 100px;
+}
+
+.info h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.info h5 {
+  margin-top: 5px;
+}
+
+.copyright {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 20px;
+}
