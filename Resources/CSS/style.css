@@ -132,12 +132,16 @@ div {
 .locations_title {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+
 }
 
 .locations-detail {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
+  padding-top: 15px;
 }
 
 .downtown, .bayside, .oakdale {
@@ -145,6 +149,10 @@ div {
   width: 300px;
   height: 300px;
   opacity: 1;
+}
+
+.locations-detail p {
+  padding-top: 20px;
 }
 
 /* Footer */
